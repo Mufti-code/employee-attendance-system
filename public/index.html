@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Employee Attendance System</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="navbar">
+<h2>Employee Attendance Dashboard</h2>
+</div>
+
+<div class="container">
+
+<div class="card">
+
+<h3>Employee Check In</h3>
+
+<input id="name" placeholder="Employee name">
+
+<button onclick="checkin()">Check In</button>
+
+</div>
+
+
+<div class="card stats">
+
+<div>
+<h4>Total Attendance</h4>
+<p id="total">0</p>
+</div>
+
+</div>
+
+
+<div class="card table-card">
+
+<h3>Attendance Data</h3>
+
+<button onclick="loadData()">Refresh Data</button>
+
+<table>
+
+<thead>
+<tr>
+<th>ID</th>
+<th>Name</th>
+<th>Check In</th>
+</tr>
+</thead>
+
+<tbody id="tableData">
+
+</tbody>
+
+</table>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
