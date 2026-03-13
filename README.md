@@ -1,37 +1,52 @@
 # Employee Attendance System
 
-Simple employee attendance web application built with Node.js and SQLite.
+A simple fullstack web application for managing employee attendance.
 
 ## Features
 
 - Employee Check-in
 - Attendance Dashboard
 - Attendance Table
-- Simple Statistics
+- Total Attendance Counter
 
 ## Tech Stack
 
-Node.js  
-Express.js  
-SQLite  
-HTML CSS JavaScript  
+- Node.js
+- Express.js
+- SQLite
+- HTML
+- CSS
+- JavaScript
 
 ## Installation
 
+Clone the repository
+
+```bash
+git clone https://github.com/Mufti-code/employee-attendance-system.git
+```
+
+Install dependencies
+
 ```bash
 npm install
+```
+
+Run the server
+
+```bash
 node server.js
 ```
 
-Open in browser:
+Open in browser
 
 ```
 http://localhost:3000
 ```
 
-## Screenshots
+## Screenshot
 
-(Add screenshot here)
+![Dashboard](Screenshot.png)
 
 ## Author
 
