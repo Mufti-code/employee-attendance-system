@@ -1,7 +1,7 @@
 {
   "name": "employee-attendance-system",
   "version": "1.0.0",
-  "description": "Employee Attendance System",
+  "description": "Employee Attendance System with Node.js, Express and SQLite",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
